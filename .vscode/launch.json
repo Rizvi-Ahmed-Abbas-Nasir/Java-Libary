@@ -4,13 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.3.0",
     "configurations": [
-        // {
-        //     "type": "java",
-        //     "name": "Launch Current File",
-        //     "request": "launch",
-        //     "console": "externalTerminal",
-        //     "mainClass": "java1"
-        // },
+        {
+            "type": "java",
+            "name": "Launch javaExample",
+            "request": "launch",
+            "mainClass": "javaExample",
+            "projectName": "Java Libary_de8273c"
+        },
         {
             "type": "java",
             "name": "Launch java1",
