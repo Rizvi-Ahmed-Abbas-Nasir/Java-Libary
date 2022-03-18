@@ -6,18 +6,24 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch javaExample",
+            "name": "Launch exm",
             "request": "launch",
-            "mainClass": "javaExample",
-            "projectName": "Java Libary_de8273c"
+            "mainClass": "example1/example1.java_exm",
+            "projectName": "Java Libary_5eb44fa",
+            "console": "externalTerminal"
         },
         {
             "type": "java",
             "name": "Launch java1",
             "request": "launch",
-            "mainClass": "java1",
-            "projectName": "Java Libary_de8273c",
-            "console": "externalTerminal"
+            "mainClass": "java_exmProject.java1",
+            "projectName": "Java Libary_5eb44fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
         }
     ]
 }

@@ -1,3 +1,5 @@
+package java_exmProject;
+
 import java.util.*;
 
 public class java1 {
@@ -10,22 +12,19 @@ public class java1 {
         // int i ;
         // for( i = 0;i <= 10; i++)
         // {
-        //     System.out.println(i);
+        // System.out.println(i);
         // }
         System.out.print("Enter Value to Increment: ");
         int Num = TakeInput.nextInt();
         System.out.print("Enter Value Element Stop At: ");
         int a = TakeInput.nextInt();
 
-        while(Num <= a)
-        {
+        while (Num <= a) {
             System.out.println(Num);
             Num++;
         }
 
-        
-    TakeInput.close();
+        TakeInput.close();
     }
-        
-    
+
 }
